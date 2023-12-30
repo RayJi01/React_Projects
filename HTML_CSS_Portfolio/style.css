@@ -1,0 +1,92 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin: 3rem 3rem 5% 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:700px;
+    height:200px;
+}
+
+nav {
+    border-radius: 20px;
+    background-color: chocolate;
+    height:3.5rem
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 2.5rem;
+}
+
+section {
+    display: flex;
+}
+
+#news {
+    background-image: url(pasta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.newsparagraph {
+    margin-left: 30px;
+    color: white
+}
+
+#function article{
+    background-color: bisque;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer p {
+    text-align: right;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 60px;
+    height: 100px; 
+}
+
+.smallpic{
+    width: 400px;
+    height: 400px;
+}
